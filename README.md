@@ -8,8 +8,8 @@ A comparative study of object trajectory tracking: Real-time embedded drawing wi
 
 ## 🎥 Video Demonstration
 <p align="center">
-  <img src="openMV/OpenMV_result1.gif" width="400" title="OpenMV Real-time Demo">
-  <img src="openCV/ball05_with_prediction.gif" width="400" title="OpenCV Prediction Demo">
+  <img src="openMV/OpenMV_result1.gif" height="400" title="OpenMV Real-time Demo">
+  <img src="openCV/ball05_with_prediction.gif" height="400" title="OpenCV Prediction Demo">
   <br>
   <em>Left: OpenMV Real-time Trajectory Drawing | Right: OpenCV Kalman Filter Prediction</em>
 </p>
@@ -28,8 +28,8 @@ A comparative study of object trajectory tracking: Real-time embedded drawing wi
 
 ### 🔴 OpenMV Real-time Trajectory (`redball_realtime_trajectory.py`)
 <p align="center">
-  <img src="openMV/OpenMV4H7R2.jpg" width="150" title="OpenMV4 H7 R2 Hardware Setup">
-  <img src="openMV/OpenMV_result1.jpg" width="400" title="Real-time Trajectory Drawing">
+  <img src="openMV/OpenMV4H7R2.jpg" height="400" title="OpenMV4 H7 R2 Hardware Setup">
+  <img src="openMV/OpenMV_result1.jpg" height="400" title="Real-time Trajectory Drawing">
   <br>
   <em>Left: OpenMV4 H7 R2 Hardware Setup (Scaled) | Right: Real-time trajectory drawing result</em>
 </p>
@@ -40,8 +40,8 @@ A comparative study of object trajectory tracking: Real-time embedded drawing wi
 
 ### 🔵 OpenCV Prediction & Analysis (`orange_prid_tra_record.py`)
 <p align="center">
-  <img src="openCV/ball05_with_prediction.jpg" width="400" title="Processed Video Frame">
-  <img src="openCV/Figure_1.png" width="400" title="Matplotlib Trajectory Analysis">
+  <img src="openCV/ball05_with_prediction.jpg" height="400" title="Processed Video Frame">
+  <img src="openCV/Figure_1.png" height="400" title="Matplotlib Trajectory Analysis">
   <br>
   <em>Left: Processed video frame | Right: Final trajectory analysis (Matplotlib)</em>
 </p>
