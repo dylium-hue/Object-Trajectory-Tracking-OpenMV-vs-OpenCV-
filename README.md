@@ -28,7 +28,7 @@ A comparative study of object trajectory tracking: Real-time embedded drawing wi
 
 ### 🔴 OpenMV Real-time Trajectory (`redball_realtime_trajectory.py`)
 <p align="center">
-  <img src="openMV/OpenMV4H7R2.jpg" width="500" title="OpenMV4 H7 R2 Hardware">
+  <img src="openMV/OpenMV4H7R2.jpg" width="150" title="OpenMV4 H7 R2 Hardware">
   <br>
   <em>OpenMV4 H7 R2 Hardware Setup</em>
 </p>
