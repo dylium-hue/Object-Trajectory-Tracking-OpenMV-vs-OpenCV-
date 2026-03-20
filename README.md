@@ -7,12 +7,12 @@ A comparative study of object trajectory tracking: Real-time embedded drawing wi
 * **Trajectory Prediction (OpenCV):** Off-line video analysis using a Kalman Filter to predict movement paths.
 
 ## 🎥 Video Demonstration
-<p align="center">
-  <img src="openMV/OpenMV_result1.gif" height="400" title="OpenMV Real-time Demo">
-  <img src="openCV/ball05_with_prediction.gif" height="400" title="OpenCV Prediction Demo">
-  <br>
-  <em>Left: OpenMV Real-time Trajectory Drawing | Right: OpenCV Kalman Filter Prediction</em>
-</p>
+
+| OpenMV Real-time Demo | OpenCV Prediction Demo |
+| :---: | :---: |
+| <img src="openMV/OpenMV_result1.gif" height="250"> | <img src="openCV/ball05_with_prediction.gif" height="250"> |
+
+> *Left: OpenMV Real-time Trajectory Drawing | Right: OpenCV Kalman Filter Prediction*
 
 ## 2. System Comparison
 
@@ -27,24 +27,20 @@ A comparative study of object trajectory tracking: Real-time embedded drawing wi
 ## 3. Module Details
 
 ### 🔴 OpenMV Real-time Trajectory (`redball_realtime_trajectory.py`)
-<p align="center">
-  <img src="openMV/OpenMV4H7R2.jpg" height="400" title="OpenMV4 H7 R2 Hardware Setup">
-  <img src="openMV/OpenMV_result1.jpg" height="400" title="Real-time Trajectory Drawing">
-  <br>
-  <em>Left: OpenMV4 H7 R2 Hardware Setup (Scaled) | Right: Real-time trajectory drawing result</em>
-</p>
+
+| Hardware Setup | Trajectory Result |
+| :---: | :---: |
+| <img src="openMV/OpenMV4H7R2.jpg" height="250"> | <img src="openMV/OpenMV_result1.jpg" height="250"> |
 
 * **Setup:** Configured for QVGA resolution with fixed white balance for stable color recognition.
 * **Drawing:** Stores up to 50 points in a buffer and connects them using `draw_line`.
 * **Timeout Logic:** If the ball is lost for more than **3 seconds**, the trajectory is automatically cleared to start a new session.
 
 ### 🔵 OpenCV Prediction & Analysis (`orange_prid_tra_record.py`)
-<p align="center">
-  <img src="openCV/ball05_with_prediction.jpg" height="400" title="Processed Video Frame">
-  <img src="openCV/Figure_1.png" height="400" title="Matplotlib Trajectory Analysis">
-  <br>
-  <em>Left: Processed video frame | Right: Final trajectory analysis (Matplotlib)</em>
-</p>
+
+| Processed Video Frame | Matplotlib Analysis |
+| :---: | :---: |
+| <img src="openCV/ball05_with_prediction.jpg" height="250"> | <img src="openCV/Figure_1.png" height="250"> |
 
 * **Algorithm Source:** The Kalman Filter and detection logic are based on [Pysource (9. Kalman filter, predict the trajectory of an Object)](https://pysource.com/2021/11/02/kalman-filter-predict-the-trajectory-of-an-object/).
 * **Dual Trajectories:**
